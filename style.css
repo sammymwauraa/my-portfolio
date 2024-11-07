@@ -1,0 +1,186 @@
+body {
+  background: linear-gradient(to bottom, black, royalblue, rgb(238, 44, 238));
+  margin: 0;
+}
+.hero-section {
+  background-image: url(./images/Premium\ Vector\ _\ Blue\ eye\ cyber\ security\ concept\ background.jpg);
+  background-size: cover;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background: black (rgba(0, 0, 0, 0.9)) rgba(0, 0, 0, 0.9);
+  background-blend-mode: multiply;
+  background-color: grey;
+  margin: 0;
+}
+.hero-section a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 400;
+}
+nav {
+  opacity: 0.5;
+  color: rgb(135, 92, 12);
+  transition: background-color 0.3s ease;
+}
+
+nav:hover {
+  background-color: aqua;
+}
+
+.logo {
+  color: #cfc4ab;
+  font-size: 35px;
+}
+
+header > nav a {
+  color: #eae7e3;
+  font-size: 16px;
+  padding: 15px;
+  margin-right: 15px;
+}
+header {
+  display: flex;
+  padding: 16px;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+header > button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+  font-family: Lato;
+  background-color: transparent;
+  border-color: rgb(149, 145, 145);
+  color: white;
+  box-shadow: inset;
+}
+
+.header-box {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  height: 100%;
+}
+.main-header {
+  color: #6f6767;
+  font-family: Lato;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 0;
+}
+.header-box p {
+  font-family: lato;
+  font-size: 20px;
+  font-weight: 200;
+  color: #f0efed;
+  margin: 0;
+  padding-top: 10px;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 50px;
+  gap: 25px;
+}
+.nails {
+  height: 350px;
+}
+.container {
+  background: linear-gradient(to bottom, royalblue, rgb(150, 77, 239));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+  
+
+.section1 h2 {
+  color: #271a00df;
+  font-family: Lato;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 0;
+}
+.section1 p {
+  text-align: center;
+  font-size: 16px;
+  font-family: lato;
+  width: 65%;
+}
+ .moving-text {
+  display: inline-block;
+  animation: moveRight 3s infinite;}
+  @keyframes moveright{
+    0% {
+      transform: translateX(0);  /* Start at the normal position */
+    }
+    100% {
+      transform: translateX(100%);  /* Move the text to the right */
+    }
+  }
+.section2 {
+  display: flex;
+  padding: 50px;
+  gap: 25px;
+}
+.SkillSet {
+  color: rgb(14, 8, 20);
+  font-family: Lato;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: left;
+  
+}
+.skillsets {
+  display: flex;
+  background-color: rgb(166, 63, 132);
+  gap: 12px;
+  
+}
+.icon {
+  width: 40px;
+}
+.icoons {
+  width: 200px;
+  background-color: rgb(93, 17, 92);
+  padding: 16px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+.icoons h3 {
+  font-family: lato;
+  color: black;
+}
+.line {
+  color: black;
+}
+footer {
+  display: flex;
+  flex-direction: block;
+  padding: 30px;
+}
+.anchors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anchors p {
+  font-size: 16px;
+  font-family: lato;
+}
+@media (max-width: 480px) {
+  nav {
+    display: none;
+  }
+}
